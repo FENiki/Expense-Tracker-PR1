@@ -1,0 +1,22 @@
+{
+    "sourceFile": "src/components/Expenses.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1650624523419,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1650624529699,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,7 +3,7 @@\n     background-color: rgb(31, 31, 31);\r\n     margin: 2rem auto;\r\n     width: 50rem;\r\n     max-width: 95%;\r\n-    bor\r\n+    border: 1 pc;\r\n \r\n }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1650624523419,
+            "name": "Commit-0",
+            "content": ".expenses {\r\n    padding: 1rem;\r\n    background-color: rgb(31, 31, 31);\r\n    margin: 2rem auto;\r\n    width: 50rem;\r\n    max-width: 95%;\r\n    bor\r\n\r\n}"
+        }
+    ]
+}

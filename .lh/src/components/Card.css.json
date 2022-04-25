@@ -1,0 +1,26 @@
+{
+    "sourceFile": "src/components/Card.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1650649856396,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1650649863010,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n .card {\r\n     border-radius: 12px;\r\n     box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);\r\n-    ba\r\n+    background-color: ;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1650863847860,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n .card {\r\n     border-radius: 12px;\r\n     box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);\r\n     background-color: azure;\r\n-    \r\n+    co\r\n }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1650649856396,
+            "name": "Commit-0",
+            "content": ".card {\r\n    border-radius: 12px;\r\n    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);\r\n    \r\n}"
+        }
+    ]
+}
