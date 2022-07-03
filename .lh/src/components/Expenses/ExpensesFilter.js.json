@@ -1,0 +1,114 @@
+{
+    "sourceFile": "src/components/Expenses/ExpensesFilter.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 24,
+            "patches": [
+                {
+                    "date": 1655818161142,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1655819411895,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n \r\n import React from \"react\";\r\n \r\n+\r\n const ExpensesFilter = () =>{\r\n \r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1655819421503,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n \r\n import React from \"react\";\r\n+import Expe\r\n \r\n-\r\n const ExpensesFilter = () =>{\r\n \r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1655819427676,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n \r\n import React from \"react\";\r\n-import Expe\r\n+import ExpensesFilter\r\n \r\n const ExpensesFilter = () =>{\r\n \r\n }\r\n"
+                },
+                {
+                    "date": 1655819436313,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n \r\n import React from \"react\";\r\n-import ExpensesFilter\r\n+import ExpensesFilter.css'\r\n \r\n const ExpensesFilter = () =>{\r\n \r\n }\r\n"
+                },
+                {
+                    "date": 1655819447551,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n \r\n import React from \"react\";\r\n-import ExpensesFilter.css'\r\n+import './ExpensesFilter.css'\r\n \r\n const ExpensesFilter = () =>{\r\n \r\n }\r\n"
+                },
+                {
+                    "date": 1655819490108,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n \r\n import React from \"react\";\r\n import './ExpensesFilter.css'\r\n \r\n-const ExpensesFilter = () =>{\r\n+const ExpensesFilter = (props) =>{\r\n \r\n }\r\n \r\n export default ExpensesFilter;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1655819502394,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,8 @@\n import React from \"react\";\r\n import './ExpensesFilter.css'\r\n \r\n const ExpensesFilter = (props) =>{\r\n-\r\n+    const \r\n }\r\n \r\n export default ExpensesFilter;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1655819508618,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,8 @@\n import React from \"react\";\r\n import './ExpensesFilter.css'\r\n \r\n const ExpensesFilter = (props) =>{\r\n-    const \r\n+    const dropdown\r\n }\r\n \r\n export default ExpensesFilter;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1655819516857,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,8 @@\n import React from \"react\";\r\n import './ExpensesFilter.css'\r\n \r\n const ExpensesFilter = (props) =>{\r\n-    const dropdown\r\n+    const dropdownChange\r\n }\r\n \r\n export default ExpensesFilter;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1655819525566,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,8 @@\n import React from \"react\";\r\n import './ExpensesFilter.css'\r\n \r\n const ExpensesFilter = (props) =>{\r\n-    const dropdownChange\r\n+    const dropdownChangeHandler = \r\n }\r\n \r\n export default ExpensesFilter;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1655819531587,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,8 @@\n import React from \"react\";\r\n import './ExpensesFilter.css'\r\n \r\n const ExpensesFilter = (props) =>{\r\n-    const dropdownChangeHandler = \r\n+    const dropdownChangeHandler = (event) \r\n }\r\n \r\n export default ExpensesFilter;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1655819537458,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,10 @@\n import React from \"react\";\r\n import './ExpensesFilter.css'\r\n \r\n const ExpensesFilter = (props) =>{\r\n-    const dropdownChangeHandler = (event) \r\n+    const dropdownChangeHandler = (event) => {\r\n+        \r\n+    }\r\n }\r\n \r\n export default ExpensesFilter;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1655819548458,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n import './ExpensesFilter.css'\r\n \r\n const ExpensesFilter = (props) =>{\r\n     const dropdownChangeHandler = (event) => {\r\n-        \r\n+        props.on\r\n     }\r\n }\r\n \r\n export default ExpensesFilter;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1655819571940,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n import './ExpensesFilter.css'\r\n \r\n const ExpensesFilter = (props) =>{\r\n     const dropdownChangeHandler = (event) => {\r\n-        props.on\r\n+        props.onChange\r\n     }\r\n }\r\n \r\n export default ExpensesFilter;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1655819583749,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n import './ExpensesFilter.css'\r\n \r\n const ExpensesFilter = (props) =>{\r\n     const dropdownChangeHandler = (event) => {\r\n-        props.onChange\r\n+        props.onChangeFilter(even)\r\n     }\r\n }\r\n \r\n export default ExpensesFilter;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1655819591932,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n import './ExpensesFilter.css'\r\n \r\n const ExpensesFilter = (props) =>{\r\n     const dropdownChangeHandler = (event) => {\r\n-        props.onChangeFilter(even)\r\n+        props.onChangeFilter(event.targ)\r\n     }\r\n }\r\n \r\n export default ExpensesFilter;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1655819602789,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n import './ExpensesFilter.css'\r\n \r\n const ExpensesFilter = (props) =>{\r\n     const dropdownChangeHandler = (event) => {\r\n-        props.onChangeFilter(event.targ)\r\n+        props.onChangeFilter(event.)\r\n     }\r\n }\r\n \r\n export default ExpensesFilter;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1655819609104,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n import './ExpensesFilter.css'\r\n \r\n const ExpensesFilter = (props) =>{\r\n     const dropdownChangeHandler = (event) => {\r\n-        props.onChangeFilter(event.)\r\n+        props.onChangeFilter(event.tar)\r\n     }\r\n }\r\n \r\n export default ExpensesFilter;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1655819616089,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n import './ExpensesFilter.css'\r\n \r\n const ExpensesFilter = (props) =>{\r\n     const dropdownChangeHandler = (event) => {\r\n-        props.onChangeFilter(event.tar)\r\n+        props.onChangeFilter(event.target.value)\r\n     }\r\n }\r\n \r\n export default ExpensesFilter;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1655819623377,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n import './ExpensesFilter.css'\r\n \r\n const ExpensesFilter = (props) =>{\r\n     const dropdownChangeHandler = (event) => {\r\n-        props.onChangeFilter(event.target.value)\r\n+        props.onChangeFilter(event.target.value);\r\n     }\r\n }\r\n \r\n export default ExpensesFilter;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1655819669552,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,8 @@\n \r\n const ExpensesFilter = (props) =>{\r\n     const dropdownChangeHandler = (event) => {\r\n         props.onChangeFilter(event.target.value);\r\n-    }\r\n+    };\r\n }\r\n \r\n export default ExpensesFilter;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1655819678399,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,7 +5,8 @@\n const ExpensesFilter = (props) =>{\r\n     const dropdownChangeHandler = (event) => {\r\n         props.onChangeFilter(event.target.value);\r\n     };\r\n+     return \r\n }\r\n \r\n export default ExpensesFilter;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1655819690461,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,10 @@\n const ExpensesFilter = (props) =>{\r\n     const dropdownChangeHandler = (event) => {\r\n         props.onChangeFilter(event.target.value);\r\n     };\r\n-     return ()\r\n+     return (\r\n+         \r\n+     )\r\n }\r\n \r\n export default ExpensesFilter;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1655819797125,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n     };\r\n      return (\r\n          <div className=\"expenses-filter\">\r\n              <div className=\"expense-filter__control\">\r\n-                 <label>Filter</label>\r\n+                 <label>Filter </label>\r\n              </div>\r\n          </div>\r\n      )\r\n }\r\n"
+                }
+            ],
+            "date": 1655818161142,
+            "name": "Commit-0",
+            "content": "\r\nimport React from \"react\";\r\n\r\nconst ExpensesFilter = () =>{\r\n\r\n}\r\n\r\nexport default ExpensesFilter;"
+        }
+    ]
+}

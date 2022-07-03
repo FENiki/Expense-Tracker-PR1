@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/components/Expenses/ExpenseFilter.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1655817725212,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1655817725212,
+            "name": "Commit-0",
+            "content": "im"
+        }
+    ]
+}

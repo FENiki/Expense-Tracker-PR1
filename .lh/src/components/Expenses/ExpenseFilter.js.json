@@ -1,0 +1,38 @@
+{
+    "sourceFile": "src/components/Expenses/ExpenseFilter.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 5,
+            "patches": [
+                {
+                    "date": 1655817805705,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1655817812561,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +0,0 @@\n-con\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1655817942653,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,1 @@\n+const \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1655817949228,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-const \n\\ No newline at end of file\n+const Expe\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1655817961490,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,3 @@\n-const ExpenseFilter = () =>{}\n\\ No newline at end of file\n+const ExpenseFilter = () =>{\r\n+    \r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1655817992930,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n const ExpenseFilter = () =>{\r\n \r\n }\r\n \r\n-e\n\\ No newline at end of file\n+ex\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1655817805705,
+            "name": "Commit-0",
+            "content": "con"
+        }
+    ]
+}

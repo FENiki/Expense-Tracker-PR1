@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 import ExpenseDate from "./ExpenseDate";
+
 import Card from "../UI/Card";
 import "./ExpenseItem.css";
 
@@ -9,7 +10,7 @@ const ExpenseItem = (props) => {
 
   const clickHandler = () => {
     setTitle("Updated!");
-    console.log(title);
+    console.log("react re-evaluated!!!1");
   };
   return (
     <Card className="expense-item">

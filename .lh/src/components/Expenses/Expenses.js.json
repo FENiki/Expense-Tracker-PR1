@@ -1,0 +1,102 @@
+{
+    "sourceFile": "src/components/Expenses/Expenses.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 21,
+            "patches": [
+                {
+                    "date": 1655817796027,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1655818076319,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from \"react\";\r\n \r\n import ExpenseItem from \"./ExpenseItem\";\r\n import Card from \"../UI/Card\";\r\n-\r\n+import \r\n import './Expenses.css';\r\n \r\n const Expenses = (props) => {\r\n     return(\r\n"
+                },
+                {
+                    "date": 1655818090389,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from \"react\";\r\n \r\n import ExpenseItem from \"./ExpenseItem\";\r\n import Card from \"../UI/Card\";\r\n-import \r\n+import ExpensesFilter from \"./ExpenseFilter\";\r\n import './Expenses.css';\r\n \r\n const Expenses = (props) => {\r\n     return(\r\n"
+                },
+                {
+                    "date": 1655818119163,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from \"react\";\r\n \r\n import ExpenseItem from \"./ExpenseItem\";\r\n import Card from \"../UI/Card\";\r\n-import ExpensesFilter from \"./ExpenseFilter\";\r\n+import ExpensesFilter from \"./ExpensesFilter\";\r\n import './Expenses.css';\r\n \r\n const Expenses = (props) => {\r\n     return(\r\n"
+                },
+                {
+                    "date": 1655818306953,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,10 @@\n import ExpensesFilter from \"./ExpensesFilter\";\r\n import './Expenses.css';\r\n \r\n const Expenses = (props) => {\r\n+\r\n+    \r\n     return(\r\n         <Card className=\"expenses\">\r\n             <ExpenseItem \r\n             title = {props.items[0].title}\r\n"
+                },
+                {
+                    "date": 1655818317775,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,10 +5,10 @@\n import ExpensesFilter from \"./ExpensesFilter\";\r\n import './Expenses.css';\r\n \r\n const Expenses = (props) => {\r\n+    const []\r\n \r\n-    \r\n     return(\r\n         <Card className=\"expenses\">\r\n             <ExpenseItem \r\n             title = {props.items[0].title}\r\n"
+                },
+                {
+                    "date": 1655818336640,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n import ExpensesFilter from \"./ExpensesFilter\";\r\n import './Expenses.css';\r\n \r\n const Expenses = (props) => {\r\n-    const []\r\n+    const [filter]\r\n \r\n     return(\r\n         <Card className=\"expenses\">\r\n             <ExpenseItem \r\n"
+                },
+                {
+                    "date": 1655818344015,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n import ExpensesFilter from \"./ExpensesFilter\";\r\n import './Expenses.css';\r\n \r\n const Expenses = (props) => {\r\n-    const [filter]\r\n+    const [filterYear]\r\n \r\n     return(\r\n         <Card className=\"expenses\">\r\n             <ExpenseItem \r\n"
+                },
+                {
+                    "date": 1655818353242,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n import ExpensesFilter from \"./ExpensesFilter\";\r\n import './Expenses.css';\r\n \r\n const Expenses = (props) => {\r\n-    const [filterYear]\r\n+    const [filterYear, set]\r\n \r\n     return(\r\n         <Card className=\"expenses\">\r\n             <ExpenseItem \r\n"
+                },
+                {
+                    "date": 1655818360656,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n import ExpensesFilter from \"./ExpensesFilter\";\r\n import './Expenses.css';\r\n \r\n const Expenses = (props) => {\r\n-    const [filterYear, set]\r\n+    const [filterYear, setFilterYear]\r\n \r\n     return(\r\n         <Card className=\"expenses\">\r\n             <ExpenseItem \r\n"
+                },
+                {
+                    "date": 1655818365991,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n import ExpensesFilter from \"./ExpensesFilter\";\r\n import './Expenses.css';\r\n \r\n const Expenses = (props) => {\r\n-    const [filterYear, setFilterYear]\r\n+    const [filterYear, setFilterYear] = \r\n \r\n     return(\r\n         <Card className=\"expenses\">\r\n             <ExpenseItem \r\n"
+                },
+                {
+                    "date": 1655818371861,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n import ExpensesFilter from \"./ExpensesFilter\";\r\n import './Expenses.css';\r\n \r\n const Expenses = (props) => {\r\n-    const [filterYear, setFilterYear] = \r\n+    const [filterYear, setFilterYear] = use\r\n \r\n     return(\r\n         <Card className=\"expenses\">\r\n             <ExpenseItem \r\n"
+                },
+                {
+                    "date": 1655818379424,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n import ExpensesFilter from \"./ExpensesFilter\";\r\n import './Expenses.css';\r\n \r\n const Expenses = (props) => {\r\n-    const [filterYear, setFilterYear] = use\r\n+    const [filterYear, setFilterYear] = useState()\r\n \r\n     return(\r\n         <Card className=\"expenses\">\r\n             <ExpenseItem \r\n"
+                },
+                {
+                    "date": 1655818389914,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,10 @@\n import ExpensesFilter from \"./ExpensesFilter\";\r\n import './Expenses.css';\r\n \r\n const Expenses = (props) => {\r\n-    const [filterYear, setFilterYear] = useState()\r\n+    const [filterYear, setFilterYear] = useState('2020');\r\n+    \r\n \r\n     return(\r\n         <Card className=\"expenses\">\r\n             <ExpenseItem \r\n"
+                },
+                {
+                    "date": 1655818609325,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,9 @@\n import './Expenses.css';\r\n \r\n const Expenses = (props) => {\r\n     const [filterYear, setFilterYear] = useState('2020');\r\n+\r\n     \r\n \r\n     return(\r\n         <Card className=\"expenses\">\r\n"
+                },
+                {
+                    "date": 1655818619457,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n \r\n const Expenses = (props) => {\r\n     const [filterYear, setFilterYear] = useState('2020');\r\n \r\n-    \r\n+    const filterChange\r\n \r\n     return(\r\n         <Card className=\"expenses\">\r\n             <ExpenseItem \r\n"
+                },
+                {
+                    "date": 1655818629237,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n \r\n const Expenses = (props) => {\r\n     const [filterYear, setFilterYear] = useState('2020');\r\n \r\n-    const filterChange\r\n+    const filterChangeHandler = set\r\n \r\n     return(\r\n         <Card className=\"expenses\">\r\n             <ExpenseItem \r\n"
+                },
+                {
+                    "date": 1655818634684,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n \r\n const Expenses = (props) => {\r\n     const [filterYear, setFilterYear] = useState('2020');\r\n \r\n-    const filterChangeHandler = set\r\n+    const filterChangeHandler = se\r\n \r\n     return(\r\n         <Card className=\"expenses\">\r\n             <ExpenseItem \r\n"
+                },
+                {
+                    "date": 1655818643297,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n \r\n const Expenses = (props) => {\r\n     const [filterYear, setFilterYear] = useState('2020');\r\n \r\n-    const filterChangeHandler = se\r\n+    const filterChangeHandler = selectedYear\r\n \r\n     return(\r\n         <Card className=\"expenses\">\r\n             <ExpenseItem \r\n"
+                },
+                {
+                    "date": 1655818679369,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,10 @@\n \r\n const Expenses = (props) => {\r\n     const [filterYear, setFilterYear] = useState('2020');\r\n \r\n-    const filterChangeHandler = selectedYear\r\n+    const filterChangeHandler = selectedYear =>\r\n+    \r\n \r\n     return(\r\n         <Card className=\"expenses\">\r\n             <ExpenseItem \r\n"
+                },
+                {
+                    "date": 1655818685484,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,8 @@\n     const [filterYear, setFilterYear] = useState('2020');\r\n \r\n     const filterChangeHandler = selectedYear =>\r\n \r\n-\r\n     return(\r\n         <Card className=\"expenses\">\r\n             <ExpenseItem \r\n             title = {props.items[0].title}\r\n"
+                },
+                {
+                    "date": 1655818697266,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n const Expenses = (props) => {\r\n     const [filterYear, setFilterYear] = useState('2020');\r\n \r\n     const filterChangeHandler = selectedYear => {\r\n-        set\r\n+        setF\r\n     }\r\n \r\n     return(\r\n         <Card className=\"expenses\">\r\n"
+                }
+            ],
+            "date": 1655817796027,
+            "name": "Commit-0",
+            "content": "import React from \"react\";\r\n\r\nimport ExpenseItem from \"./ExpenseItem\";\r\nimport Card from \"../UI/Card\";\r\n\r\nimport './Expenses.css';\r\n\r\nconst Expenses = (props) => {\r\n    return(\r\n        <Card className=\"expenses\">\r\n            <ExpenseItem \r\n            title = {props.items[0].title}\r\n            amount = {props.items[0].amount}\r\n            date = {props.items[0].date}\r\n            />\r\n            <ExpenseItem \r\n            title = {props.items[1].title}\r\n            amount = {props.items[1].amount}\r\n            date = {props.items[1].date}\r\n            />\r\n            <ExpenseItem \r\n            title = {props.items[2].title}\r\n            amount = {props.items[2].amount}\r\n            date = {props.items[2].date}\r\n            />\r\n            <ExpenseItem \r\n            title = {props.items[3].title}\r\n            amount = {props.items[3].amount}\r\n            date = {props.items[3].date}\r\n            />\r\n        </Card>\r\n    )\r\n}\r\n\r\nexport default Expenses;"
+        }
+    ]
+}

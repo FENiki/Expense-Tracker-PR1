@@ -1,0 +1,90 @@
+{
+    "sourceFile": "src/components/Expenses/ExpensesFilter.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 18,
+            "patches": [
+                {
+                    "date": 1655823504517,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1655823524813,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,5 @@\n-.expenses-filter\n\\ No newline at end of file\n+.expenses-filter {\r\n+\r\n+}\r\n+\r\n+.expense-filter__control\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1655823538883,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,7 @@\n .expenses-filter {\r\n-\r\n+    \r\n }\r\n \r\n\\ No newline at end of file\n-.expense-filter__control\n+.expense-filter__control{\r\n+\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1655824211889,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n .expenses-filter {\r\n-    \r\n+ \r\n }\r\n \r\n .expense-filter__control{\r\n \r\n"
+                },
+                {
+                    "date": 1655824239806,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n .expenses-filter {\r\n- \r\n+ margin: ;\r\n }\r\n \r\n .expense-filter__control{\r\n \r\n"
+                },
+                {
+                    "date": 1655824268150,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n .expenses-filter {\r\n- margin: ;\r\n+ margin: mauto;\r\n }\r\n \r\n .expense-filter__control{\r\n \r\n"
+                },
+                {
+                    "date": 1655824387867,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .expenses-filter {\r\n- margin: mauto;\r\n+ margin: auto;\r\n }\r\n \r\n .expense-filter__control{\r\n-\r\n+ \r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1655824394384,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,6 @@\n  margin: auto;\r\n }\r\n \r\n .expense-filter__control{\r\n- \r\n+ margin: \r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1655824401735,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,6 @@\n  margin: auto;\r\n }\r\n \r\n .expense-filter__control{\r\n- margin: \r\n+ margin: auto\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1655824543825,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,6 @@\n  margin: auto;\r\n }\r\n \r\n .expense-filter__control{\r\n- margin: auto\r\n+ ali\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1655824550460,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,6 @@\n  margin: auto;\r\n }\r\n \r\n .expense-filter__control{\r\n- ali\r\n+ align-items: right;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1655824575948,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,5 +3,6 @@\n }\r\n \r\n .expense-filter__control{\r\n  align-items: right;\r\n+ \r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1655824581324,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,6 +3,6 @@\n }\r\n \r\n .expense-filter__control{\r\n  align-items: right;\r\n- \r\n+ display: i\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1655824588970,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,6 +3,6 @@\n }\r\n \r\n .expense-filter__control{\r\n  align-items: right;\r\n- display: i\r\n+ display: \r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1655824594923,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,6 +3,7 @@\n }\r\n \r\n .expense-filter__control{\r\n  align-items: right;\r\n- display: \r\n+ display: flex;\r\n+ \r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1655824601430,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,6 +4,6 @@\n \r\n .expense-filter__control{\r\n  align-items: right;\r\n  display: flex;\r\n- \r\n+ justify-content: end;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1655824714169,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,6 +4,6 @@\n \r\n .expense-filter__control{\r\n  align-items: right;\r\n  display: flex;\r\n- justify-content: end;\r\n+ justify-content: ;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1655824736404,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .expenses-filter {\r\n  margin: auto;\r\n- \r\n+ di\r\n }\r\n \r\n .expense-filter__control{\r\n  align-items: right;\r\n"
+                },
+                {
+                    "date": 1655824746975,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n .expenses-filter {\r\n  margin: auto;\r\n  display: flex;\r\n- \r\n+ j\r\n }\r\n \r\n .expense-filter__control{\r\n  align-items: right;\r\n"
+                }
+            ],
+            "date": 1655823504517,
+            "name": "Commit-0",
+            "content": ".expenses-filter"
+        }
+    ]
+}

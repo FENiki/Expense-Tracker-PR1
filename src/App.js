@@ -1,9 +1,11 @@
 import React from "react";
 
 import Expenses from "./components/Expenses/Expenses";
+import NewExpense from "./components/NewExpense/NewExpense";
 // import ExpenseItem from "./components/ExpenseItem";
 // import logo from "./logo.svg";
 import "./App.css";
+import ExpenseDate from "./components/Expenses/ExpenseDate";
 
 const App = () => {
   const expenses = [
@@ -28,13 +30,17 @@ const App = () => {
     },
   ];
 
-  
+  const addExpenseHandler = expense => {
+    console.log('In App.js');
+    console.log(expense);
+  }
 
   return (
     <div>
       <header className="App-header">
         <div>
           <h2 className="title">Expense Tracker</h2>
+          <NewExpense onAddExpense={addExpenseHandler}/>
         <Expenses items = {expenses}/>
           </div>
 

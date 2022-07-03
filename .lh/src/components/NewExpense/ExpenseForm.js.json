@@ -1,0 +1,102 @@
+{
+    "sourceFile": "src/components/NewExpense/ExpenseForm.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 21,
+            "patches": [
+                {
+                    "date": 1655214433047,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1655214566214,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,13 +2,13 @@\n \r\n import \"./ExpenseForm.css\";\r\n \r\n const ExpenseForm = () => {\r\n-  const [enteredTitle, setEnteredTitle] = useState(\"\");\r\n-  const [enterdAmount, setEnterdAmount] = useState(\"\");\r\n-  const [enterdDate, setEnterdDate] = useState(\"\");\r\n-  \r\n+  // const [enteredTitle, setEnteredTitle] = useState(\"\");\r\n+  // const [enterdAmount, setEnterdAmount] = useState(\"\");\r\n+  // const [enterdDate, setEnterdDate] = useState(\"\");\r\n \r\n+\r\n   const titleChangeHandler = (event) => {\r\n     setEnteredTitle(event.target.value);\r\n   };\r\n \r\n"
+                },
+                {
+                    "date": 1655214571571,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,10 +5,10 @@\n const ExpenseForm = () => {\r\n   // const [enteredTitle, setEnteredTitle] = useState(\"\");\r\n   // const [enterdAmount, setEnterdAmount] = useState(\"\");\r\n   // const [enterdDate, setEnterdDate] = useState(\"\");\r\n+  use\r\n \r\n-\r\n   const titleChangeHandler = (event) => {\r\n     setEnteredTitle(event.target.value);\r\n   };\r\n \r\n"
+                },
+                {
+                    "date": 1655214577504,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,11 @@\n const ExpenseForm = () => {\r\n   // const [enteredTitle, setEnteredTitle] = useState(\"\");\r\n   // const [enterdAmount, setEnterdAmount] = useState(\"\");\r\n   // const [enterdDate, setEnterdDate] = useState(\"\");\r\n-  use\r\n+  useState({\r\n+    \r\n+  })\r\n \r\n   const titleChangeHandler = (event) => {\r\n     setEnteredTitle(event.target.value);\r\n   };\r\n"
+                },
+                {
+                    "date": 1655214587442,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n   // const [enteredTitle, setEnteredTitle] = useState(\"\");\r\n   // const [enterdAmount, setEnterdAmount] = useState(\"\");\r\n   // const [enterdDate, setEnterdDate] = useState(\"\");\r\n   useState({\r\n-    \r\n+    titleEnterd\r\n   })\r\n \r\n   const titleChangeHandler = (event) => {\r\n     setEnteredTitle(event.target.value);\r\n"
+                },
+                {
+                    "date": 1655214628198,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n   // const [enteredTitle, setEnteredTitle] = useState(\"\");\r\n   // const [enterdAmount, setEnterdAmount] = useState(\"\");\r\n   // const [enterdDate, setEnterdDate] = useState(\"\");\r\n   useState({\r\n-    titleEnterd\r\n+    titleEnterd: ''\r\n   })\r\n \r\n   const titleChangeHandler = (event) => {\r\n     setEnteredTitle(event.target.value);\r\n"
+                },
+                {
+                    "date": 1655214634798,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,10 @@\n   // const [enteredTitle, setEnteredTitle] = useState(\"\");\r\n   // const [enterdAmount, setEnterdAmount] = useState(\"\");\r\n   // const [enterdDate, setEnterdDate] = useState(\"\");\r\n   useState({\r\n-    titleEnterd: ''\r\n+    titleEnterd: '',\r\n+\r\n   })\r\n \r\n   const titleChangeHandler = (event) => {\r\n     setEnteredTitle(event.target.value);\r\n"
+                },
+                {
+                    "date": 1655214804178,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n   // const [enterdAmount, setEnterdAmount] = useState(\"\");\r\n   // const [enterdDate, setEnterdDate] = useState(\"\");\r\n   useState({\r\n     titleEnterd: '',\r\n-\r\n+       \r\n   })\r\n \r\n   const titleChangeHandler = (event) => {\r\n     setEnteredTitle(event.target.value);\r\n"
+                },
+                {
+                    "date": 1655214824521,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n   // const [enteredTitle, setEnteredTitle] = useState(\"\");\r\n   // const [enterdAmount, setEnterdAmount] = useState(\"\");\r\n   // const [enterdDate, setEnterdDate] = useState(\"\");\r\n   useState({\r\n-    titleEnterd: '',\r\n+    enter: '',\r\n        \r\n   })\r\n \r\n   const titleChangeHandler = (event) => {\r\n"
+                },
+                {
+                    "date": 1655214830393,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n   // const [enteredTitle, setEnteredTitle] = useState(\"\");\r\n   // const [enterdAmount, setEnterdAmount] = useState(\"\");\r\n   // const [enterdDate, setEnterdDate] = useState(\"\");\r\n   useState({\r\n-    enter: '',\r\n+    entered: '',\r\n        \r\n   })\r\n \r\n   const titleChangeHandler = (event) => {\r\n"
+                },
+                {
+                    "date": 1655214837391,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,10 @@\n   // const [enteredTitle, setEnteredTitle] = useState(\"\");\r\n   // const [enterdAmount, setEnterdAmount] = useState(\"\");\r\n   // const [enterdDate, setEnterdDate] = useState(\"\");\r\n   useState({\r\n-    entered: '',\r\n+    enteredTitle: '',\r\n+    \r\n        \r\n   })\r\n \r\n   const titleChangeHandler = (event) => {\r\n"
+                },
+                {
+                    "date": 1655214843012,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n   // const [enterdAmount, setEnterdAmount] = useState(\"\");\r\n   // const [enterdDate, setEnterdDate] = useState(\"\");\r\n   useState({\r\n     enteredTitle: '',\r\n-    \r\n+    enterd\r\n        \r\n   })\r\n \r\n   const titleChangeHandler = (event) => {\r\n"
+                },
+                {
+                    "date": 1655214848709,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n   // const [enterdAmount, setEnterdAmount] = useState(\"\");\r\n   // const [enterdDate, setEnterdDate] = useState(\"\");\r\n   useState({\r\n     enteredTitle: '',\r\n-    enterd\r\n+    enteredAmou\r\n        \r\n   })\r\n \r\n   const titleChangeHandler = (event) => {\r\n"
+                },
+                {
+                    "date": 1655214857045,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n   // const [enterdAmount, setEnterdAmount] = useState(\"\");\r\n   // const [enterdDate, setEnterdDate] = useState(\"\");\r\n   useState({\r\n     enteredTitle: '',\r\n-    enteredAmou\r\n+    enteredAmount: ''\r\n        \r\n   })\r\n \r\n   const titleChangeHandler = (event) => {\r\n"
+                },
+                {
+                    "date": 1655214862461,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,10 @@\n   // const [enterdAmount, setEnterdAmount] = useState(\"\");\r\n   // const [enterdDate, setEnterdDate] = useState(\"\");\r\n   useState({\r\n     enteredTitle: '',\r\n-    enteredAmount: ''\r\n+    enteredAmount: '',\r\n+    \r\n        \r\n   })\r\n \r\n   const titleChangeHandler = (event) => {\r\n"
+                },
+                {
+                    "date": 1655214868511,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n   // const [enterdDate, setEnterdDate] = useState(\"\");\r\n   useState({\r\n     enteredTitle: '',\r\n     enteredAmount: '',\r\n-    \r\n+    enteredDate\r\n        \r\n   })\r\n \r\n   const titleChangeHandler = (event) => {\r\n"
+                },
+                {
+                    "date": 1655214874812,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n   // const [enterdDate, setEnterdDate] = useState(\"\");\r\n   useState({\r\n     enteredTitle: '',\r\n     enteredAmount: '',\r\n-    enteredDate\r\n+    enteredDate: ''\r\n        \r\n   })\r\n \r\n   const titleChangeHandler = (event) => {\r\n"
+                },
+                {
+                    "date": 1655214880103,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n        \r\n   })\r\n \r\n   const titleChangeHandler = (event) => {\r\n-    setEnteredTitle(event.target.value);\r\n+    // setEnteredTitle(event.target.value);\r\n   };\r\n \r\n   const amountChangeHandler = (event) => {\r\n     setEnterdAmount(event.target.value);\r\n"
+                },
+                {
+                    "date": 1655214898839,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,17 +5,18 @@\n const ExpenseForm = () => {\r\n   // const [enteredTitle, setEnteredTitle] = useState(\"\");\r\n   // const [enterdAmount, setEnterdAmount] = useState(\"\");\r\n   // const [enterdDate, setEnterdDate] = useState(\"\");\r\n-  useState({\r\n+ const  useState({\r\n     enteredTitle: '',\r\n     enteredAmount: '',\r\n     enteredDate: ''\r\n        \r\n   })\r\n \r\n   const titleChangeHandler = (event) => {\r\n     // setEnteredTitle(event.target.value);\r\n+\r\n   };\r\n \r\n   const amountChangeHandler = (event) => {\r\n     setEnterdAmount(event.target.value);\r\n"
+                },
+                {
+                    "date": 1655214906219,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n const ExpenseForm = () => {\r\n   // const [enteredTitle, setEnteredTitle] = useState(\"\");\r\n   // const [enterdAmount, setEnterdAmount] = useState(\"\");\r\n   // const [enterdDate, setEnterdDate] = useState(\"\");\r\n- const  useState({\r\n+ const [] useState({\r\n     enteredTitle: '',\r\n     enteredAmount: '',\r\n     enteredDate: ''\r\n        \r\n"
+                },
+                {
+                    "date": 1655214913053,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n const ExpenseForm = () => {\r\n   // const [enteredTitle, setEnteredTitle] = useState(\"\");\r\n   // const [enterdAmount, setEnterdAmount] = useState(\"\");\r\n   // const [enterdDate, setEnterdDate] = useState(\"\");\r\n- const [userInput] useState({\r\n+ const [userInput,] useState({\r\n     enteredTitle: '',\r\n     enteredAmount: '',\r\n     enteredDate: ''\r\n        \r\n"
+                },
+                {
+                    "date": 1655214951558,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,11 @@\n   })\r\n \r\n   const titleChangeHandler = (event) => {\r\n     // setEnteredTitle(event.target.value);\r\n-    setUserInput({})\r\n+    setUserInput({\r\n+      \r\n+    })\r\n   };\r\n \r\n   const amountChangeHandler = (event) => {\r\n     setEnterdAmount(event.target.value);\r\n"
+                }
+            ],
+            "date": 1655214433047,
+            "name": "Commit-0",
+            "content": "import React, { useState } from \"react\";\r\n\r\nimport \"./ExpenseForm.css\";\r\n\r\nconst ExpenseForm = () => {\r\n  const [enteredTitle, setEnteredTitle] = useState(\"\");\r\n  const [enterdAmount, setEnterdAmount] = useState(\"\");\r\n  const [enterdDate, setEnterdDate] = useState(\"\");\r\n  \r\n\r\n  const titleChangeHandler = (event) => {\r\n    setEnteredTitle(event.target.value);\r\n  };\r\n\r\n  const amountChangeHandler = (event) => {\r\n    setEnterdAmount(event.target.value);\r\n  };\r\n\r\n  const dateChangeHandler = (event) => {\r\n    setEnterdDate(event.target.value);\r\n  };\r\n  return (\r\n    <form>\r\n      <div className=\"new-expense__controls\">\r\n        <div className=\"new-expense__control\">\r\n          <label>Title</label>\r\n          <input type=\"text\" onChange={titleChangeHandler} />\r\n        </div>\r\n        <div className=\"new-expense__control\">\r\n          <label>Amount</label>\r\n          <input\r\n            type=\"number\"\r\n            min=\"0.01\"\r\n            step=\"0.01\"\r\n            onChange={amountChangeHandler}\r\n          />\r\n        </div>\r\n        <div className=\"new-expense__control\">\r\n          <label>Date</label>\r\n          <input type=\"date\" min=\"2019-01-01\" max=\"2022-12-31\" onChange={dateChangeHandler}/>\r\n        </div>\r\n      </div>\r\n      <button type=\"submit\">Add Expense</button>\r\n    </form>\r\n  );\r\n};\r\n\r\nexport default ExpenseForm;\r\n"
+        }
+    ]
+}

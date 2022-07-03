@@ -3,11 +3,59 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 12,
             "patches": [
                 {
                     "date": 1649708205398,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1655566126612,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,13 @@\n+import React from \"react\";\n \n-import ExpenseItem from \"./components/ExpenseItem\";\n+import Expenses from \"./components/Expenses/Expenses\";\n+import NewExpense from \"./components/NewExpense/NewExpense\";\n+// import ExpenseItem from \"./components/ExpenseItem\";\n // import logo from \"./logo.svg\";\n import \"./App.css\";\n \n-function App() {\n+const App = () => {\n   const expenses = [\n     {\n       id: \"e1\",\n       title: \"Toilet Paper\",\n@@ -25,32 +28,19 @@\n       date: new Date(2021, 5, 12),\n     },\n   ];\n \n+  const \n+\n   return (\n     <div>\n       <header className=\"App-header\">\n-        <h2>Expense Tracker</h2>\n-        <ExpenseItem\n-          title={expenses[0].title}\n-          amount={expenses[0].amount}\n-          date={expenses[0].date}\n-        ></ExpenseItem>\n-        <ExpenseItem\n-          title={expenses[1].title}\n-          amount={expenses[1].amount}\n-          date={expenses[1].date}\n-        ></ExpenseItem>\n-        <ExpenseItem\n-          title={expenses[2].title}\n-          amount={expenses[2].amount}\n-          date={expenses[2].date}\n-        ></ExpenseItem>\n-        <ExpenseItem\n-          title={expenses[3].title}\n-          amount={expenses[3].amount}\n-          date={expenses[3].date}\n-        ></ExpenseItem>\n+        <div>\n+          <h2 className=\"title\">Expense Tracker</h2>\n+          <NewExpense />\n+        <Expenses items = {expenses}/>\n+          </div>\n+\n       </header>\n     </div>\n   );\n }\n"
+                },
+                {
+                    "date": 1655566132652,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n       date: new Date(2021, 5, 12),\n     },\n   ];\n \n-  const \n+  const add\n \n   return (\n     <div>\n       <header className=\"App-header\">\n"
+                },
+                {
+                    "date": 1655566139661,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n       date: new Date(2021, 5, 12),\n     },\n   ];\n \n-  const add\n+  const addExpenseHandler\n \n   return (\n     <div>\n       <header className=\"App-header\">\n"
+                },
+                {
+                    "date": 1655566147407,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n       date: new Date(2021, 5, 12),\n     },\n   ];\n \n-  const addExpenseHandler\n+  const addExpenseHandler = expense\n \n   return (\n     <div>\n       <header className=\"App-header\">\n"
+                },
+                {
+                    "date": 1655566164789,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,9 @@\n import NewExpense from \"./components/NewExpense/NewExpense\";\n // import ExpenseItem from \"./components/ExpenseItem\";\n // import logo from \"./logo.svg\";\n import \"./App.css\";\n+import ExpenseDate from \"./components/Expenses/ExpenseDate\";\n \n const App = () => {\n   const expenses = [\n     {\n@@ -28,9 +29,9 @@\n       date: new Date(2021, 5, 12),\n     },\n   ];\n \n-  const addExpenseHandler = expense\n+  const addExpenseHandler = e\n \n   return (\n     <div>\n       <header className=\"App-header\">\n"
+                },
+                {
+                    "date": 1655566171344,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n       date: new Date(2021, 5, 12),\n     },\n   ];\n \n-  const addExpenseHandler = e\n+  const addExpenseHandler = expense\n \n   return (\n     <div>\n       <header className=\"App-header\">\n"
+                },
+                {
+                    "date": 1655566178523,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,11 @@\n       date: new Date(2021, 5, 12),\n     },\n   ];\n \n-  const addExpenseHandler = expense\n+  const addExpenseHandler = expense => {\n+    \n+  }\n \n   return (\n     <div>\n       <header className=\"App-header\">\n"
+                },
+                {
+                    "date": 1655566222091,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n     },\n   ];\n \n   const addExpenseHandler = expense => {\n-    \n+    console.log(object);\n   }\n \n   return (\n     <div>\n"
+                },
+                {
+                    "date": 1655566229070,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n     },\n   ];\n \n   const addExpenseHandler = expense => {\n-    console.log(object);\n+    console.log('');\n   }\n \n   return (\n     <div>\n"
+                },
+                {
+                    "date": 1655566235482,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n     },\n   ];\n \n   const addExpenseHandler = expense => {\n-    console.log('');\n+    console.log('In App.js');\n   }\n \n   return (\n     <div>\n"
+                },
+                {
+                    "date": 1655566251368,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n   ];\n \n   const addExpenseHandler = expense => {\n     console.log('In App.js');\n-    \n+    c\n   }\n \n   return (\n     <div>\n"
+                },
+                {
+                    "date": 1655566264448,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n   ];\n \n   const addExpenseHandler = expense => {\n     console.log('In App.js');\n-    console.log(ex);\n+    console.log(exp);\n   }\n \n   return (\n     <div>\n"
                 }
             ],
             "date": 1649708205398,

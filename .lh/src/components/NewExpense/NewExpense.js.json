@@ -1,0 +1,150 @@
+{
+    "sourceFile": "src/components/NewExpense/NewExpense.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 33,
+            "patches": [
+                {
+                    "date": 1655561303126,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1655561318817,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n \r\n const newExpense = () => {\r\n   return (\r\n     <div className=\"new-expense\">\r\n-      <ExpenseForm onS/>\r\n+      <ExpenseForm onSave/>\r\n     </div>\r\n   );\r\n };\r\n \r\n"
+                },
+                {
+                    "date": 1655561325883,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n \r\n const newExpense = () => {\r\n   return (\r\n     <div className=\"new-expense\">\r\n-      <ExpenseForm onSave/>\r\n+      <ExpenseForm onSaveExpenseData/>\r\n     </div>\r\n   );\r\n };\r\n \r\n"
+                },
+                {
+                    "date": 1655561576754,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,12 @@\n import React from \"react\";\r\n import \"./NewExpense.css\";\r\n import ExpenseForm from \"./ExpenseForm\";\r\n \r\n+\r\n+\r\n+\r\n+\r\n const newExpense = () => {\r\n   return (\r\n     <div className=\"new-expense\">\r\n       <ExpenseForm onSaveExpenseData/>\r\n"
+                },
+                {
+                    "date": 1655561693055,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,8 @@\n \r\n \r\n \r\n \r\n-\r\n const newExpense = () => {\r\n   return (\r\n     <div className=\"new-expense\">\r\n       <ExpenseForm onSaveExpenseData/>\r\n"
+                },
+                {
+                    "date": 1655561749648,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,9 @@\n \r\n \r\n \r\n const newExpense = () => {\r\n+  const \r\n   return (\r\n     <div className=\"new-expense\">\r\n       <ExpenseForm onSaveExpenseData/>\r\n     </div>\r\n"
+                },
+                {
+                    "date": 1655561766296,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n \r\n \r\n \r\n const newExpense = () => {\r\n-  const \r\n+  const save\r\n   return (\r\n     <div className=\"new-expense\">\r\n       <ExpenseForm onSaveExpenseData/>\r\n     </div>\r\n"
+                },
+                {
+                    "date": 1655561772105,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n \r\n \r\n \r\n const newExpense = () => {\r\n-  const save\r\n+  const saveExpenseData\r\n   return (\r\n     <div className=\"new-expense\">\r\n       <ExpenseForm onSaveExpenseData/>\r\n     </div>\r\n"
+                },
+                {
+                    "date": 1655561780317,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n \r\n \r\n \r\n const newExpense = () => {\r\n-  const saveExpenseData\r\n+  const saveExpenseDataHandler ()\r\n   return (\r\n     <div className=\"new-expense\">\r\n       <ExpenseForm onSaveExpenseData/>\r\n     </div>\r\n"
+                },
+                {
+                    "date": 1655561790535,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,11 @@\n \r\n \r\n \r\n const newExpense = () => {\r\n-  const saveExpenseDataHandler ()\r\n+  const saveExpenseDataHandler= () => {\r\n+\r\n+  }\r\n   return (\r\n     <div className=\"new-expense\">\r\n       <ExpenseForm onSaveExpenseData/>\r\n     </div>\r\n"
+                },
+                {
+                    "date": 1655561796916,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,10 +5,10 @@\n \r\n \r\n \r\n const newExpense = () => {\r\n-  const saveExpenseDataHandler= () => {\r\n-\r\n+  const saveExpenseDataHandler = () => {\r\n+    \r\n   }\r\n   return (\r\n     <div className=\"new-expense\">\r\n       <ExpenseForm onSaveExpenseData/>\r\n"
+                },
+                {
+                    "date": 1655561804523,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,10 +5,10 @@\n \r\n \r\n \r\n const newExpense = () => {\r\n-  const saveExpenseDataHandler = () => {\r\n-    \r\n+  const saveExpenseDataHandler = (expense) => {\r\n+\r\n   }\r\n   return (\r\n     <div className=\"new-expense\">\r\n       <ExpenseForm onSaveExpenseData/>\r\n"
+                },
+                {
+                    "date": 1655561848225,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,10 +5,10 @@\n \r\n \r\n \r\n const newExpense = () => {\r\n-  const saveExpenseDataHandler = (expense) => {\r\n-\r\n+  const saveExpenseDataHandler = (expenseData) => {\r\n+    \r\n   }\r\n   return (\r\n     <div className=\"new-expense\">\r\n       <ExpenseForm onSaveExpenseData/>\r\n"
+                },
+                {
+                    "date": 1655562089162,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n \r\n \r\n const newExpense = () => {\r\n   const saveExpenseDataHandler = (expenseData) => {\r\n-    \r\n+    const \r\n   }\r\n   return (\r\n     <div className=\"new-expense\">\r\n       <ExpenseForm onSaveExpenseData/>\r\n"
+                },
+                {
+                    "date": 1655562098882,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n \r\n \r\n const newExpense = () => {\r\n   const saveExpenseDataHandler = (expenseData) => {\r\n-    const \r\n+    const expenseDat\r\n   }\r\n   return (\r\n     <div className=\"new-expense\">\r\n       <ExpenseForm onSaveExpenseData/>\r\n"
+                },
+                {
+                    "date": 1655562107195,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n \r\n \r\n const newExpense = () => {\r\n   const saveExpenseDataHandler = (expenseData) => {\r\n-    const expenseDat\r\n+    const expenseData = {}\r\n   }\r\n   return (\r\n     <div className=\"new-expense\">\r\n       <ExpenseForm onSaveExpenseData/>\r\n"
+                },
+                {
+                    "date": 1655562116036,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,11 @@\n \r\n \r\n const newExpense = () => {\r\n   const saveExpenseDataHandler = (expenseData) => {\r\n-    const expenseData = {}\r\n+    const expenseData = {\r\n+      ...e\r\n+    }\r\n   }\r\n   return (\r\n     <div className=\"new-expense\">\r\n       <ExpenseForm onSaveExpenseData/>\r\n"
+                },
+                {
+                    "date": 1655562125762,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n \r\n const newExpense = () => {\r\n   const saveExpenseDataHandler = (expenseData) => {\r\n     const expenseData = {\r\n-      ...e\r\n+      ...\r\n     }\r\n   }\r\n   return (\r\n     <div className=\"new-expense\">\r\n"
+                },
+                {
+                    "date": 1655562136164,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n \r\n const newExpense = () => {\r\n   const saveExpenseDataHandler = (expenseData) => {\r\n     const expenseData = {\r\n-      ...\r\n+      ...enteredExpense\r\n     }\r\n   }\r\n   return (\r\n     <div className=\"new-expense\">\r\n"
+                },
+                {
+                    "date": 1655562142396,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n \r\n const newExpense = () => {\r\n   const saveExpenseDataHandler = (expenseData) => {\r\n     const expenseData = {\r\n-      ...enteredExpense\r\n+      ...enteredExpenseDad\r\n     }\r\n   }\r\n   return (\r\n     <div className=\"new-expense\">\r\n"
+                },
+                {
+                    "date": 1655562166169,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n \r\n const newExpense = () => {\r\n   const saveExpenseDataHandler = (expenseData) => {\r\n     const expenseData = {\r\n-      ...enteredExpenseDad\r\n+      ...enteredExpenseData,\r\n     }\r\n   }\r\n   return (\r\n     <div className=\"new-expense\">\r\n"
+                },
+                {
+                    "date": 1655562176303,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,9 @@\n const newExpense = () => {\r\n   const saveExpenseDataHandler = (expenseData) => {\r\n     const expenseData = {\r\n       ...enteredExpenseData,\r\n+      id\r\n     }\r\n   }\r\n   return (\r\n     <div className=\"new-expense\">\r\n"
+                },
+                {
+                    "date": 1655562182108,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n const newExpense = () => {\r\n   const saveExpenseDataHandler = (expenseData) => {\r\n     const expenseData = {\r\n       ...enteredExpenseData,\r\n-      id\r\n+      id: math\r\n     }\r\n   }\r\n   return (\r\n     <div className=\"new-expense\">\r\n"
+                },
+                {
+                    "date": 1655562188321,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n const newExpense = () => {\r\n   const saveExpenseDataHandler = (expenseData) => {\r\n     const expenseData = {\r\n       ...enteredExpenseData,\r\n-      id: math\r\n+      id: Math.random();\r\n     }\r\n   }\r\n   return (\r\n     <div className=\"new-expense\">\r\n"
+                },
+                {
+                    "date": 1655562195055,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n const newExpense = () => {\r\n   const saveExpenseDataHandler = (expenseData) => {\r\n     const expenseData = {\r\n       ...enteredExpenseData,\r\n-      id: Math.random();\r\n+      id: Math.random().to\r\n     }\r\n   }\r\n   return (\r\n     <div className=\"new-expense\">\r\n"
+                },
+                {
+                    "date": 1655562201593,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n const newExpense = () => {\r\n   const saveExpenseDataHandler = (expenseData) => {\r\n     const expenseData = {\r\n       ...enteredExpenseData,\r\n-      id: Math.random().to\r\n+      id: Math.random().toString();\r\n     }\r\n   }\r\n   return (\r\n     <div className=\"new-expense\">\r\n"
+                },
+                {
+                    "date": 1655562215542,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n const newExpense = () => {\r\n   const saveExpenseDataHandler = (expenseData) => {\r\n     const expenseData = {\r\n       ...enteredExpenseData,\r\n-      id: Math.random().toString();\r\n+      id: Math.random().toString()\r\n     }\r\n   }\r\n   return (\r\n     <div className=\"new-expense\">\r\n"
+                },
+                {
+                    "date": 1655562251289,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n \r\n \r\n \r\n const newExpense = () => {\r\n-  const saveExpenseDataHandler = (expenseData) => {\r\n+  const saveExpenseDataHandler = (enexpenseData) => {\r\n     const expenseData = {\r\n       ...enteredExpenseData,\r\n       id: Math.random().toString()\r\n     }\r\n"
+                },
+                {
+                    "date": 1655562258444,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n \r\n \r\n \r\n const newExpense = () => {\r\n-  const saveExpenseDataHandler = (enexpenseData) => {\r\n+  const saveExpenseDataHandler = (enter) => {\r\n     const expenseData = {\r\n       ...enteredExpenseData,\r\n       id: Math.random().toString()\r\n     }\r\n"
+                },
+                {
+                    "date": 1655562449668,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,13 +5,14 @@\n \r\n \r\n \r\n const newExpense = () => {\r\n-  const saveExpenseDataHandler = (enter) => {\r\n+  const saveExpenseDataHandler = (enteredExpenseData) => {\r\n     const expenseData = {\r\n       ...enteredExpenseData,\r\n       id: Math.random().toString()\r\n     }\r\n+    \r\n   }\r\n   return (\r\n     <div className=\"new-expense\">\r\n       <ExpenseForm onSaveExpenseData/>\r\n"
+                },
+                {
+                    "date": 1655562457233,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     const expenseData = {\r\n       ...enteredExpenseData,\r\n       id: Math.random().toString()\r\n     }\r\n-    \r\n+    console.log(e);\r\n   }\r\n   return (\r\n     <div className=\"new-expense\">\r\n       <ExpenseForm onSaveExpenseData/>\r\n"
+                },
+                {
+                    "date": 1655562464139,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     const expenseData = {\r\n       ...enteredExpenseData,\r\n       id: Math.random().toString()\r\n     }\r\n-    console.log(e);\r\n+    console.log(expenseData);\r\n   }\r\n   return (\r\n     <div className=\"new-expense\">\r\n       <ExpenseForm onSaveExpenseData/>\r\n"
+                },
+                {
+                    "date": 1655562495297,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n     console.log(expenseData);\r\n   }\r\n   return (\r\n     <div className=\"new-expense\">\r\n-      <ExpenseForm onSaveExpenseData=/>\r\n+      <ExpenseForm onSaveExpenseData={/>\r\n     </div>\r\n   );\r\n };\r\n \r\n"
+                },
+                {
+                    "date": 1655566552817,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     const expenseData = {\r\n       ...enteredExpenseData,\r\n       id: Math.random().toString()\r\n     }\r\n-    props.on\r\n+    props.ona\r\n   };\r\n   return (\r\n     <div className=\"new-expense\">\r\n       <ExpenseForm onSaveExpenseData={saveExpenseDataHandler}/>\r\n"
+                }
+            ],
+            "date": 1655561303126,
+            "name": "Commit-0",
+            "content": "import React from \"react\";\r\nimport \"./NewExpense.css\";\r\nimport ExpenseForm from \"./ExpenseForm\";\r\n\r\nconst newExpense = () => {\r\n  return (\r\n    <div className=\"new-expense\">\r\n      <ExpenseForm onS/>\r\n    </div>\r\n  );\r\n};\r\n\r\nexport default newExpense;\r\n"
+        }
+    ]
+}
